@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<head>
+    <title>C-80</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main2.js"></script>
+</head>
+
+<body>
+    <center>
+        <h3 style="margin-top:20px; margin-bottom:20px">
+            Lista de Convidados
+        </h3>
+
+        <div>
+
+            <input type="text" placeholder="Nome do convidado" id="nomeConvidado" value="">
+
+            <button onclick="submit()" id="enviarDados">Enviar</button>
+        </div>
+        <div>
+            <button onclick="mostrar()" id="mostrar">mostar</button>
+            <button onclick="organizar()" id="organizar">Organizar</button>
+        </div>
+        <br>
+       
+
+
+        <div id="div_array">
+        </div>
+
+        <div>
+            <input type  = "text" id = "pesquisa">
+            <button onclick = "pesquisar()">Pesquisar</button>
+        </div>
+
+        <h3 id = "text_nome_encontrado"></h3>
+    </center>
+</body>
+
+</html>

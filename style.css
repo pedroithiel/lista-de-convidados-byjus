@@ -1,0 +1,11 @@
+input {
+    margin: 10px;
+}
+
+#mostrar {
+    display: none; 
+ }
+
+ #organizar {
+    display: none; 
+ }
