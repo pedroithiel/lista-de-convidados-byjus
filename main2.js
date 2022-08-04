@@ -13,16 +13,12 @@ function submit() {
     }
     else {
 
-
         arrayNomeConvidado.push(inputNomeConvidado);
 
         objInputNomeConvidado.value = "";
 
         document.getElementById("mostrar").style.display = "inline-block";
     }
-
-    //alert(inputNomeConvidado);
-    //alert(array);
 }
 
 function mostrar() {
@@ -47,7 +43,6 @@ function organizar() {
 function pesquisar() {
     var found = 0;
 
-    //for (Valor Inicial; Condicao; Aumentar o valor);
     var inputPesquisarNomeConvidado = document.getElementById("pesquisa").value.trim();
 
     if (inputPesquisarNomeConvidado == "") {
